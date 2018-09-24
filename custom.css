@@ -779,6 +779,8 @@ ts-mention {
   background: none !important; }
 .searchable_member_list .list_items .c-member__display-name {
   color: var(--text); }
+.searchable_member_list .list_items .c-unified_member__display-name {
+  color: var(--text); }
 
 #file_comment_submit_btn:after,
 #file_listing_bottom_button:after {
@@ -1688,7 +1690,8 @@ ts-mention.ts_tip:hover {
   /* default color - leave unthemed */ }
 
 .c-member__name,
-.c-member__display-name {
+.c-member__display-name,
+.c-unified_member__display-name {
   color: var(--text) !important; }
 
 .c-member__secondary-name {
