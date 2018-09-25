@@ -683,6 +683,10 @@ ts-mention {
 .reply_input_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container {
   color: var(--text) !important; }
 
+.join_channel_from_thread_container {
+  background: var(--background) !important;
+}
+
 .tab_complete_ui {
   background: var(--background-elevated);
   color: var(--text);
