@@ -564,6 +564,8 @@ ts-mention {
   color: var(--text) !important; }
 .client_main_container ts-message .message_content .message_content_header {
   color: var(--primary) !important; }
+.new_reply{
+  background-color: var(--background-elevated) !important}
 .client_main_container ts-message .attachment_group .msg_inline_attachment_column.column_border {
   background-color: var(--primary); }
 .client_main_container ts-message .attachment_group .attachment_source span {
