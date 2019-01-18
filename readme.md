@@ -6,6 +6,14 @@ Atom One Dark Theme for Slack!
 
 ![Screenshot](preview.png)
 
+
+# Compatible versions
+This patch is confirmed to be working on 
+- v3.3.1
+- v3.3.3
+- v3.3.6
+
+
 # Installing into Slack
 
 Find your Slack's application directory.
@@ -15,7 +23,7 @@ Find your Slack's application directory.
 * Linux: `/usr/lib/slack/` (Debian-based)
 
 
-Open up the most recent version (e.g. `app-2.5.1`) then open
+Open up the app's folder then open
 `resources\app.asar.unpacked\src\static\ssb-interop.js`
 
 At the very bottom, after the init, but before the last curly bracket `}`, add
