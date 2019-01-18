@@ -18,7 +18,7 @@ Find your Slack's application directory.
 Open up the most recent version (e.g. `app-2.5.1`) then open
 `resources\app.asar.unpacked\src\static\ssb-interop.js`
 
-At the very bottom, add
+At the very bottom, after the init, but before the last curly bracket `}`, add
 
 ```js
 // First make sure the wrapper app is loaded
